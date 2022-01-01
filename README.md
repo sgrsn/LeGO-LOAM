@@ -37,6 +37,14 @@ catkin_make -j1
 ```
 When you compile the code for the first time, you need to add "-j1" behind "catkin_make" for generating some message types. "-j1" is not needed for future compiling.
 
+Or, if you want to use catkin build
+```
+catkin build -j1 
+```
+
+Please refer to the comments below url.
+https://github.com/RobustFieldAutonomyLab/LeGO-LOAM/issues/215#issuecomment-824809870
+
 ## The system
 
 LeGO-LOAM is speficifally optimized for a horizontally placed VLP-16 on a ground vehicle. It assumes there is always a ground plane in the scan. The UGV we are using is Clearpath Jackal. It has a built-in IMU. 
