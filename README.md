@@ -25,6 +25,12 @@ An updated lidar-initial odometry package, [LIO-SAM](https://github.com/TixiaoSh
   sudo make install
   ```
 
+If libparmetis-dev is not installed, do the following.
+
+```
+sudo apt-get install libparmetis-dev
+```
+
 ## Compile
 
 You can use the following commands to download and compile the package.
